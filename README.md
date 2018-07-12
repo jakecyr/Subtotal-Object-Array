@@ -1,5 +1,5 @@
 # Subtotal JavaScript Object Array
-Subtotal JavaScript object array by change in a specified key.
+Subtotal JavaScript object array by change in a specified key. Originally made to add subtotals to an AngularJS generated HTML table.
 
 ### Example Usage
 
