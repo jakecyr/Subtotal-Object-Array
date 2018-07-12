@@ -1,4 +1,4 @@
-# Subtotal-Object-Array
+# Subtotal JavaScript Object Array
 Subtotal JavaScript object array by change in a specified key.
 
 ### Example Usage
@@ -6,7 +6,7 @@ Subtotal JavaScript object array by change in a specified key.
 The following code:
 ```
 var masterData = [
-  {
+	{
 		name: 'Jake',
 		value_0: 1,
 		value_1: 2
