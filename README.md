@@ -1,10 +1,14 @@
 # Subtotal JavaScript Object Array
+
 Subtotal JavaScript object array by change in a specified key. Originally made for an AngularJS subtotals HTML table.
 
 ### Example Usage
 
 The following code:
+
 ```javascript
+const subtotal = require('../src/subtotal');
+
 const masterData = [
     {
         name: 'Jake',
@@ -25,10 +29,11 @@ const masterData = [
     }
 ];
 
-let subTotals = subTotal(masterData, 'name', ['value_0', 'value_1']);
+let output = subtotal(masterData, 'name', ['value_0', 'value_1']);
 ```
 
 will produce the following JavaScript object:
+
 ```javascript
 {
   "John":{
@@ -41,3 +46,4 @@ will produce the following JavaScript object:
   ...
 }
 ```
+
